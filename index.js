@@ -1,3 +1,4 @@
 const fs = require("fs");
 
-fs.writeFileSync("./test.html", "<html><head></head><body><p>sup</p></body></html>");
+const random = Math.random();
+fs.writeFileSync("./index.html", `<html><head></head><body><p>${random}</p></body></html>`);
