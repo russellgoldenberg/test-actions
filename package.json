@@ -1,0 +1,23 @@
+{
+  "name": "test-actions",
+	"engines": {
+    "node": "14.15.0"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/russellgoldenberg/test-actions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/russellgoldenberg/test-actions/issues"
+  },
+  "homepage": "https://github.com/russellgoldenberg/test-actions#readme"
+}
