@@ -1,4 +1,11 @@
 const fs = require("fs");
 
-const random = Math.random();
-fs.writeFileSync("./index.html", `<html><head></head><body><h1>A real change</h1><p>${random}</p></body></html>`);
+const template = fs.readFileSync("./template.html", "utf8");
+
+const date = date
+
+const time = date.toLocaleTimeString();
+
+const html = template.replace("<!-- time -->", time);
+
+fs.writeFileSync("./index.html", html);

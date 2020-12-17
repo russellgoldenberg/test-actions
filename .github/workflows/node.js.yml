@@ -1,5 +1,7 @@
-name: Build and Deploy
-on: [push]
+name: Build Github Pages
+on:
+  schedule:
+    - cron: "*/10 * * * *"
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
