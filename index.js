@@ -2,7 +2,7 @@ const fs = require("fs");
 
 const template = fs.readFileSync("./template.html", "utf8");
 
-const date = date
+const date = new Date();
 
 const time = date.toLocaleTimeString();
 
